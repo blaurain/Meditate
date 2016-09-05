@@ -12,10 +12,55 @@ body
   padding: 0px;
 }
 
-.timerTile {
-  display: inline-block;
+.overallBox {
+    max-width: 750px;
 }
+
+.setupClock {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 140px;
+}
+
+/*.timerTile {
+  display: inline-block;
+  min-height: 150px;
+  min-width: 100px;
+  margin-left: 6px !important;
+  margin-right: 6px !important;
+  padding: 0px;
+   -moz-border-radius: 10px; 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color:#02eeab;
+}*/
 
 .timerMinuteLabel {
   text-align: left;
+}
+
+.timeSetBox {
+  float:right;
+}
+
+.timeSetButton {
+  border: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  min-height: 30px;
+  width: 100px;
+   -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color:#1686de;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.timeSetButton:hover {
+    background-color:#0679D2;
+}
+
+.timeSetButtonTop {
+  vertical-align: bottom;
 }
