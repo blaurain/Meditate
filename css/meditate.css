@@ -19,7 +19,19 @@ body
 .setupClock {
   margin-left: auto !important;
   margin-right: auto !important;
+  margin-bottom: 0px !important;
   width: 140px;
+}
+
+.playButton {
+  margin-top: 30px;
+  background-color: #f5024a;
+  width: 100px;
+  height: 50px;
+}
+
+.playButtonIcon {
+  font-size: 28px;
 }
 
 /*.timerTile {
@@ -63,4 +75,18 @@ body
 
 .timeSetButtonTop {
   vertical-align: bottom;
+  margin-top: 40px;
 }
+
+.timeSetButtonIcon {
+  font-size: 20px;
+}
+
+.timeSetMinuteLabel {
+  font: normal 20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+
+
