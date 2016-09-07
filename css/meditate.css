@@ -25,7 +25,7 @@ body
 
 .playButton {
   margin-top: 30px;
-  background-color: #f5024a;
+  background-color: #02eeab;
   width: 100px;
   height: 50px;
 }
@@ -33,19 +33,6 @@ body
 .playButtonIcon {
   font-size: 28px;
 }
-
-/*.timerTile {
-  display: inline-block;
-  min-height: 150px;
-  min-width: 100px;
-  margin-left: 6px !important;
-  margin-right: 6px !important;
-  padding: 0px;
-   -moz-border-radius: 10px; 
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  background-color:#02eeab;
-}*/
 
 .timerMinuteLabel {
   text-align: left;
@@ -83,7 +70,9 @@ body
 }
 
 .timeSetMinuteLabel {
-  font: normal 20px "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Verdana', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 0;
 }
