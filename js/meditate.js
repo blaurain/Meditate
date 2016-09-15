@@ -1,11 +1,28 @@
-// function onLoad() {
-//     var setupClock = $('.setupClock').FlipClock(0, {
-//         countdown: true,
-//         minimumDigits: 2,
-//         autoStart: false
-//     });
-// }
+var setupClock = $('.setupClock').FlipClock(10, {
+    countdown: true,
+    minimumDigits: 2,
+    autoStart: false,
+    clockFace: 'Counter'
+});
+var music, isPlaying;
 
+
+function playTimer() {
+    if(isPlaying) { //stop
+
+    } else { //start
+        music = new Howl({
+            src: ['audio/stardust.ogg','audio/stardust.mp3'],
+            autoplay: true,
+            loop: true
+        });
+        isPlaying = true;
+    }
+}
+
+
+// function onLoad() {
+// }
 
 
 // function startTimer(duration, display) {
